@@ -9,7 +9,7 @@
 - [References](#references)
 
 ## Background 
-This project is a submission for the module Artificial Intelligence for Earth Observation, forming part of my education on the AI for Sustainable Development MSc at University College London.
+This project is a submission for the module Artificial Intelligence for Earth Observation, which forms part of my education on the AI for Sustainable Development MSc at University College London.
 
 Deforestation is a major contributing factor to the current ecological crisis facing the planet. Some areas have suffered its effects more acutely than others - the tropics lost a record-shattering 6.7 million hectares of primary rainforest in 2024, an area almost the size of Panama [1]. Borneo was chosen for this study, as its a region located in the tropics home to a diverse ecosystems and animals such as the orangutan, pygmy elephant and clouded leopard. It has only half of its forest cover remaining today, down from 75% in the 1980s [2]. A primary driver for deforestation in this region is the expansion of palm oil plantations for agriculture, industrial palm plantations grew by 128,000 hectares in 2023, a 59% increase from the previous year, the associated deforestation increased by 53% [3]. This study aims to highlight an issue facing tropical ecosystems across the world, an issue where economic productivity is prioritised over the preservation of rich biodiversity.
 
