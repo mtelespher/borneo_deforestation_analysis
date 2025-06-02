@@ -104,14 +104,14 @@ The study enables remote monitoring of over 31,000 hectares of tropical forest, 
 
 
 ## References 
-[1] - https://gfr.wri.org/latest-analysis-deforestation-trends
-[2] - https://www.unep.org/news-and-stories/story/deforestation-borneo-slowing-regulation-remains-key
-[3] - https://nusantara-atlas.org/2023-marks-a-surge-in-palm-oil-expansion-in-indonesia/
-[4] - Xue, J., & Su, B. (2017). Significant remote sensing vegetation indices: A review of developments and applications. Journal of Sensors, 2017, 1353691.
-[5] - Sobrino, J. A., Franch, B., Mattar, C., Jiménez‐Muñoz, J. C., & Corbari, C. (2012). A method to estimate global carbon dioxide uptake by forests from satellite data.
-[6] - Masanet, E., Shehabi, A., Lei, N., Smith, S., & Koomey, J. (2020). Recalibrating global data center energy-use estimates. Science, 367(6481), 984-986.
-[7] - Lloyd, S. (1982). Least squares quantization in PCM. IEEE transactions on information theory, 28(2), 129-137.
-[8] - Luccioni, A. S., Viguier, S., & Ligozat, A. L. (2022). Estimating the carbon footprint of BLOOM, a 176B parameter language model. arXiv preprint arXiv:2211.02001.
-[9] - Ross, M. N., Toohey, D. W., Peinemann, M., & Ross, P. M. (2010). Limits on the space launch market related to stratospheric ozone depletion. Astropolitics, 8(1), 50-82.
-[10] - Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 3645-3650.
+[1] - https://gfr.wri.org/latest-analysis-deforestation-trends  
+[2] - https://www.unep.org/news-and-stories/story/deforestation-borneo-slowing-regulation-remains-key  
+[3] - https://nusantara-atlas.org/2023-marks-a-surge-in-palm-oil-expansion-in-indonesia/  
+[4] - Xue, J., & Su, B. (2017). Significant remote sensing vegetation indices: A review of developments and applications. Journal of Sensors, 2017, 1353691.  
+[5] - Sobrino, J. A., Franch, B., Mattar, C., Jiménez‐Muñoz, J. C., & Corbari, C. (2012). A method to estimate global carbon dioxide uptake by forests from satellite data.  
+[6] - Masanet, E., Shehabi, A., Lei, N., Smith, S., & Koomey, J. (2020). Recalibrating global data center energy-use estimates. Science, 367(6481), 984-986.  
+[7] - Lloyd, S. (1982). Least squares quantization in PCM. IEEE transactions on information theory, 28(2), 129-137.  
+[8] - Luccioni, A. S., Viguier, S., & Ligozat, A. L. (2022). Estimating the carbon footprint of BLOOM, a 176B parameter language model. arXiv preprint arXiv:2211.02001.  
+[9] - Ross, M. N., Toohey, D. W., Peinemann, M., & Ross, P. M. (2010). Limits on the space launch market related to stratospheric ozone depletion. Astropolitics, 8(1), 50-82.  
+[10] - Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, 3645-3650.  
 
