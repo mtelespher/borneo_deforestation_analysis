@@ -74,7 +74,7 @@ To replicate this analysis a Google Earth Engine account is required.
 pip install earthengine-api
 pip install geemap
 pip install pandas numpy matplotlib seaborn scikit-learn
-'''
+```
 
 ## Environmental cost of research project
 
