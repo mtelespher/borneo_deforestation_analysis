@@ -95,8 +95,8 @@ LLM Training Infrastructure: Training GPT-3 consumed 552 tonnes of CO2, although
 
 ### Total Study Emissions:
 
-**4,552-10,552 tonnes CO₂** - To conduct this analysis independently, accounting for the full environmental cost of launching Sentinel-2 satellites and training the LLM required for the project's completion.  
-**0.22-0.32 kg CO₂** - When considering satellite launch and LLM training as shared infrastructure costs not directly attributable to this individual study. This reflects the marginal cost when infrastructure is already available and can support multiple research projects accessing the same data and computational resources.
+- **4,552-10,552 tonnes CO₂** - To conduct this analysis independently, accounting for the full environmental cost of launching Sentinel-2 satellites and training the LLM required for the project's completion.  
+- **0.22-0.32 kg CO₂** - When considering satellite launch and LLM training as shared infrastructure costs not directly attributable to this individual study. This reflects the marginal cost when infrastructure is already available and can support multiple research projects accessing the same data and computational resources.
 
 ### Comparative Analysis and Benefits
 
