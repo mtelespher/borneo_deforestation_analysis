@@ -56,10 +56,10 @@ The code within the notebook automatically selects images from each time period 
 ### Vegetation Indices
 Four vegetation indices are calculated from Sentinel-2 spectral bands to characterise land cover types:
 
-- NDVI (Normalised Difference Vegetation Index): Primary indicator of vegetation health and density  (NIR - Red) / (NIR + Red)
-- EVI (Enhanced Vegetation Index): Optimised for dense tropical forest canopy detection  G × (NIR - Red) / (NIR + C1 × Red - C2 × Blue + L)
-- SAVI (Soil Adjusted Vegetation Index): Reduces soil background interference in vegetation signals  ((NIR - Red) / (NIR + Red + L)) × (1 + L)
-- NDMI (Normalised Difference Moisture Index): Captures vegetation moisture content and stress levels  (NIR - SWIR) / (NIR + SWIR)
+- NDVI (Normalised Difference Vegetation Index): Primary indicator of vegetation health and density.  (NIR - Red) / (NIR + Red)
+- EVI (Enhanced Vegetation Index): Optimised for dense tropical forest canopy detection.  G × (NIR - Red) / (NIR + C1 × Red - C2 × Blue + L)
+- SAVI (Soil Adjusted Vegetation Index): Reduces soil background interference in vegetation signals.  ((NIR - Red) / (NIR + Red + L)) × (1 + L)
+- NDMI (Normalised Difference Moisture Index): Captures vegetation moisture content and stress levels.  (NIR - SWIR) / (NIR + SWIR)
 
 Where:
 - NIR = Near-Infrared reflectance
