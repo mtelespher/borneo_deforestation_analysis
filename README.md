@@ -7,9 +7,9 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
-- [Limitations and Future Work](#Limitations and FutureWork)
-- [Environmental cost of research project](#Environmental cost of research project)
-  
+- [Limitations and Future Work](#limitations-and-future-work)
+- [Environmental Cost of Research Project](#environmental-cost-of-research-project)
+- [References](#references)
 
 ## Background 
 This project is a submission for the module Artificial Intelligence for Earth Observation, which forms part of my education on the AI for Sustainable Development MSc at University College London.
@@ -62,20 +62,20 @@ Four vegetation indices are calculated from Sentinel-2 spectral bands to charact
 - NDMI (Normalised Difference Moisture Index): Captures vegetation moisture content and stress levels  (NIR - SWIR) / (NIR + SWIR)
 
 Where:
-NIR = Near-Infrared reflectance
-Red = Red band reflectance
-G = Gain factor (typically 2.5)
-C1 = Coefficient for atmospheric resistance (typically 6.0)
-C2 = Coefficient for atmospheric resistance (typically 7.5)
-L = Canopy background adjustment (typically 1.0)
-NIR = Near-Infrared reflectance
-Red = Red band reflectance
-Blue = Blue band reflectance
-NIR = Near-Infrared reflectance
-Red = Red band reflectance
-L = Soil brightness correction factor (typically 0.5, ranges from 0 to 1)
-NIR = Near-Infrared reflectance
-SWIR = Short-Wave Infrared reflectance (typically band 6 in Landsat or band 11 in Sentinel-2)
+- NIR = Near-Infrared reflectance
+- Red = Red band reflectance
+- G = Gain factor (typically 2.5)
+- C1 = Coefficient for atmospheric resistance (typically 6.0)
+- C2 = Coefficient for atmospheric resistance (typically 7.5)
+- L = Canopy background adjustment (typically 1.0)
+- NIR = Near-Infrared reflectance
+- Red = Red band reflectance
+- Blue = Blue band reflectance
+- NIR = Near-Infrared reflectance
+- Red = Red band reflectance
+- L = Soil brightness correction factor (typically 0.5, ranges from 0 to 1)
+- NIR = Near-Infrared reflectance
+- SWIR = Short-Wave Infrared reflectance (typically band 6 in Landsat or band 11 in Sentinel-2)
 
 
 These indices leverage the distinct spectral signatures of different land cover types, enabling discrimination between primary forest, degraded forest, plantations, and cleared land. Using a combination of indices provides a more robust foundation for our analysis, allowing for a clearer identification of what land cover type a pixel is more so than any one index alone [4]. All indices typically range from -1 to +1, with higher positive values generally indicating healthier, denser vegetation (except NDMI, where higher values indicate higher moisture content).
