@@ -3,12 +3,13 @@
 ![Tropical Rainforest](tropical_rainforest.jpg)
 
 ## Table of Contents
+- [Background](#background)
 - [Overview](#overview)
+- [Dataset](#dataset)
 - [Methodology](#methodology)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [References](#references)
+- [Limitations and Future Work](#LimitationsandFutureWork)
+- [Environmental cost of research project](#Environmentalcostofresearch project)
+  
 
 ## Background 
 This project is a submission for the module Artificial Intelligence for Earth Observation, which forms part of my education on the AI for Sustainable Development MSc at University College London.
