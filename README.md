@@ -105,7 +105,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ### Direct Research Costs
 Satellite Data Processing & Extraction: The environmental cost of accessing pre-processed Sentinel-2 L2A data through the Copernicus platform is minimal, as the computational burden falls on ESA's existing infrastructure. Data transfer costs are estimated at approximately 0.01 kg CO₂ for the volumes required [5].
 
-The entire notebook can be executed in under ten minutes. Studies examining energy consumption in cloud environments report values in kWh for similar workloads, with corresponding carbon emissions measured in gCO2e How to estimate carbon footprint when training deep learning models? A guide and review - PMC. For a 10-minute runtime with basic computational tasks, emissions are estimated between 0.02-0.05 kg CO₂ [6].
+The entire notebook can be executed in under ten minutes. Studies examining energy consumption in cloud environments report values in kWh for similar workloads, with corresponding carbon emissions measured in gCO2e. For a 10-minute runtime with basic computational tasks, emissions are estimated between 0.02-0.05 kg CO₂ [6].
 
 K-means Analysis Pipeline: The unsupervised clustering approach employed requires significantly less computational resources than deep learning alternatives. K-means algorithms typically consume approximately 0.1 kWh for datasets of this scale, resulting in roughly 0.04 kg CO₂ emissions [7].
 
@@ -113,7 +113,7 @@ LLM Assistance for Research: Development support involved approximately 50 queri
 
 ### Infrastructure Costs 
 
-Sentinel-2 Satellite Launch & Maintenance: Launch operations typically generate 2,000-5,000 tonnes CO₂ per satellite deployment Operating sustainably &ndash; Google Data Centers. However, when distributed across the millions of global users accessing Sentinel-2 data over the mission's 7+ year operational period, individual study contributions become negligible (~0.001-0.002 kg CO₂) [9].
+Sentinel-2 Satellite Launch & Maintenance: Launch operations typically generate 2,000-5,000 tonnes CO₂ per satellite deployment. However, when distributed across the millions of global users accessing Sentinel-2 data over the mission's 7+ year operational period, individual study contributions become negligible (~0.001-0.002 kg CO₂) [9].
 
 LLM Training Infrastructure: Training GPT-3 consumed 552 tonnes of CO2, although this cost has been distributed over billions of prompts, we still required a trained model for this research [10].
 
