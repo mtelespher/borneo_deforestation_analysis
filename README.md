@@ -7,8 +7,8 @@
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
-- [Limitations and Future Work](#LimitationsandFutureWork)
-- [Environmental cost of research project](#Environmentalcostofresearch project)
+- [Limitations and Future Work](#Limitations and FutureWork)
+- [Environmental cost of research project](#Environmental cost of research project)
   
 
 ## Background 
