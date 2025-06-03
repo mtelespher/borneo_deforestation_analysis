@@ -22,6 +22,8 @@ Two regions representing both Malaysia and Indonesia are analysed in this study.
 
 Due to the absence of ground truth labels, an unsupervised learning approach was employed. The K-means algorithm clusters pixels by similarity based on vegetation indices. To ensure temporal consistency, the algorithm is trained on 2020 imagery and applied to both 2020 and 2024 datasets. Pixel count changes are then analysed to quantify deforestation rates in each study area. Cloud masking techniques were implemented to remove irrelevant pixels.
 
+Please find the analysis carried out in the file Borneo_deforestation_monitoring_kmeans.ipynb which is stored on this repository.
+
 
 ## Dataset
 
