@@ -1,6 +1,6 @@
 # Monitoring Palm Oil-Driven Deforestation in Borneo Through K-means Analysis of Satellite Data
 
-![Tropical Rainforest](tropical_rainforest.jpeg)
+![Tropical Rainforest](tropical_rainforest.jpg)
 
 ## Table of Contents
 - [Overview](#overview)
