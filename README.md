@@ -55,12 +55,29 @@ The code within the notebook automatically selects images from each time period 
 ### Vegetation Indices
 Four vegetation indices are calculated from Sentinel-2 spectral bands to characterise land cover types:
 
-- NDVI (Normalised Difference Vegetation Index): Primary indicator of vegetation health and density  
-- EVI (Enhanced Vegetation Index): Optimised for dense tropical forest canopy detection  
-- SAVI (Soil Adjusted Vegetation Index): Reduces soil background interference in vegetation signals  
-- NDMI (Normalised Difference Moisture Index): Captures vegetation moisture content and stress levels  
+- NDVI (Normalised Difference Vegetation Index): Primary indicator of vegetation health and density  (NIR - Red) / (NIR + Red)
+- EVI (Enhanced Vegetation Index): Optimised for dense tropical forest canopy detection  G × (NIR - Red) / (NIR + C1 × Red - C2 × Blue + L)
+- SAVI (Soil Adjusted Vegetation Index): Reduces soil background interference in vegetation signals  ((NIR - Red) / (NIR + Red + L)) × (1 + L)
+- NDMI (Normalised Difference Moisture Index): Captures vegetation moisture content and stress levels  (NIR - SWIR) / (NIR + SWIR)
 
-These indices leverage the distinct spectral signatures of different land cover types, enabling discrimination between primary forest, degraded forest, plantations, and cleared land. Using a combination of indices provides a more robust foundation for our analysis, allowing for a clearer identification of what land cover type a pixel is more so than any one index alone [4].
+Where:
+NIR = Near-Infrared reflectance
+Red = Red band reflectance
+G = Gain factor (typically 2.5)
+C1 = Coefficient for atmospheric resistance (typically 6.0)
+C2 = Coefficient for atmospheric resistance (typically 7.5)
+L = Canopy background adjustment (typically 1.0)
+NIR = Near-Infrared reflectance
+Red = Red band reflectance
+Blue = Blue band reflectance
+NIR = Near-Infrared reflectance
+Red = Red band reflectance
+L = Soil brightness correction factor (typically 0.5, ranges from 0 to 1)
+NIR = Near-Infrared reflectance
+SWIR = Short-Wave Infrared reflectance (typically band 6 in Landsat or band 11 in Sentinel-2)
+
+
+These indices leverage the distinct spectral signatures of different land cover types, enabling discrimination between primary forest, degraded forest, plantations, and cleared land. Using a combination of indices provides a more robust foundation for our analysis, allowing for a clearer identification of what land cover type a pixel is more so than any one index alone [4]. All indices typically range from -1 to +1, with higher positive values generally indicating healthier, denser vegetation (except NDMI, where higher values indicate higher moisture content).
 
 ### K-means Clustering Application
 The K-means algorithm performs unsupervised classification by clustering pixels with similar vegetation characteristics which are quantified using the above indices. The methodology employs temporal consistency by training the model exclusively on 2020 data sampling 2000 pixels to do so. Then applying the same cluster definitions to both 2020 and 2024 imagery. This approach ensures meaningful change detection by maintaining consistent land cover classifications across time periods.
