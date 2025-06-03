@@ -55,10 +55,10 @@ The code within the notebook automatically selects images from each time period 
 ### Vegetation Indices
 Four vegetation indices are calculated from Sentinel-2 spectral bands to characterise land cover types:
 
-NDVI (Normalised Difference Vegetation Index): Primary indicator of vegetation health and density  
-EVI (Enhanced Vegetation Index): Optimised for dense tropical forest canopy detection  
-SAVI (Soil Adjusted Vegetation Index): Reduces soil background interference in vegetation signals  
-NDMI (Normalised Difference Moisture Index): Captures vegetation moisture content and stress levels  
+- NDVI (Normalised Difference Vegetation Index): Primary indicator of vegetation health and density  
+- EVI (Enhanced Vegetation Index): Optimised for dense tropical forest canopy detection  
+- SAVI (Soil Adjusted Vegetation Index): Reduces soil background interference in vegetation signals  
+- NDMI (Normalised Difference Moisture Index): Captures vegetation moisture content and stress levels  
 
 These indices leverage the distinct spectral signatures of different land cover types, enabling discrimination between primary forest, degraded forest, plantations, and cleared land. Using a combination of indices provides a more robust foundation for our analysis, allowing for a clearer identification of what land cover type a pixel is more so than any one index alone [4].
 
